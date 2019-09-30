@@ -19,8 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jw4-0d-7yT">
-                                <frame key="frameInset" minX="16" minY="40" width="343" height="97"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jw4-0d-7yT">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH1-pX-dWI">
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -37,17 +36,15 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="7dN-dD-no3" secondAttribute="trailing" id="r43-2f-5iL"/>
+                                    <constraint firstAttribute="trailing" secondItem="7dN-dD-no3" secondAttribute="trailing" id="yxK-c6-22U"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jw4-0d-7yT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="1Na-RY-GGb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jw4-0d-7yT" secondAttribute="trailing" constant="20" id="DUf-Jz-b5N"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jw4-0d-7yT" secondAttribute="trailing" id="TrK-fF-hFg"/>
-                            <constraint firstItem="jw4-0d-7yT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="jb3-3X-FeX"/>
-                            <constraint firstItem="jw4-0d-7yT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rSd-oX-s43"/>
+                            <constraint firstItem="jw4-0d-7yT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Nxt-7f-Etn"/>
+                            <constraint firstItem="jw4-0d-7yT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kEa-iK-xXF"/>
+                            <constraint firstItem="jw4-0d-7yT" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ko6-VO-X81"/>
                         </constraints>
                     </view>
                 </viewController>
